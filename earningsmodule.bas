@@ -30,7 +30,7 @@ Function earnwhisp()
     With ew_
         .pre_tar_arr(0) = "Earnings Release Date"",""startDate"" : """
         '.pre_tar_arr(1) = "</sup>"
-        .aft_target = "T2"
+        .aft_target = "T"
     End With
     Set earnwhisp = ew_
 End Function
